@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "tafl"
+version = "0.1.0"
+description = ""
+authors = ["ranguli <hello@joshmurphy.ca>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+datasette = "^0.62"
+csvs-to-sqlite = "^1.3"
+sqlite-utils = "^3.29"
+dataset = "^1.5.2"
+tqdm = "^4.64.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

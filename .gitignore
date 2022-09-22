@@ -1,0 +1,6 @@
+*.zip
+*.csv
+*.db
+*.sqlite
+# Generated with poetry export and only used by Heroku
+tafl/requirements.txt

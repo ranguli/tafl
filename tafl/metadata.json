@@ -1,0 +1,25 @@
+{
+    "title": "Technical & Administrative Frequency List (TAFL) Search",
+    "description": "Client for searching Industry Canada's TAFL, made by VO1RFX.",
+    "github": "https://github.com/ranguli/tafl",
+    "license": "Open Government License - Canada",
+    "license_url": "https://open.canada.ca/en/open-government-licence-canada",
+    "source": "Original Data Source",
+    "source_url": "https://open.canada.ca/data/en/dataset/508040d7-6fa9-46e4-afbc-aa61f3ca317e/resource/20a7a325-19f7-4aa8-b666-e1cf0b01fe92",
+
+    "databases": {
+        "tafl": {
+            "tables": {
+                "tafl": {
+                    "facets": ["Licensee name", "Call sign", "Subservice", "Service", "Station location", "Province", "Satellite name"]
+                }
+            }
+        }
+    },
+    "plugins": {
+        "datasette-cluster-map": {
+            "latitude_column": "Latitude",
+            "longitude_column": "Longitude"
+        }
+    }
+}
