@@ -6,7 +6,8 @@
         "Subservice",
         "ITU class",
         "Regulatory service",
-        "Communication type"
+        "Communication type",
+        "Analog digital"
     ],
     "Polarization": {
         "A": "Horizontal",

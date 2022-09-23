@@ -1,0 +1,61 @@
+Radio Type
+Frequency
+Frequency record identifier
+Regulatory service
+Communication type
+Conformity to frequency plan
+Frequency allocation name
+Channel
+International coordination number
+Analog digital
+Occupied bandwidth
+Designation of emission
+Modulation type
+Filtration installed
+TX effective radiated power
+TX transmitter power
+Total losses
+Analog capacity
+Digital capacity
+RX unfaded received signal level
+RX threshold signal level for BER
+Manufacturer
+Model number
+Antenna gain
+Antenna pattern
+Half power beam width
+Front back ratio
+Polarization
+Height AGL
+Azimuth main lobe
+Vertical elevation angle
+Station location
+Licensee station reference
+Call sign
+Type of station
+ITU class
+Station cost object
+Number identical stations
+Reference id
+Province
+Latitude
+Longitude
+Ground elevation MSR
+Antenna structure height AGL
+Congestion zone
+Radius of operation
+Satellite name
+Authorization number
+Service
+Subservice
+License type
+Authorization status
+In service date
+Account number
+Licensee name
+Licensee address
+Operational status
+Station class
+Horizontal power
+Vertical power
+Standby transmitter information
