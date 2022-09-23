@@ -1,5 +1,5 @@
 Radio Type
-Frequency
+Frequency (Hz, Sortable)
 Frequency record identifier
 Regulatory service
 Communication type
@@ -34,7 +34,7 @@ Licensee station reference
 Call sign
 Type of station
 ITU class
-Station cost object
+Station cost
 Number identical stations
 Reference id
 Province

@@ -11,9 +11,16 @@
         "tafl": {
             "tables": {
                 "tafl": {
-                    "facets": ["Licensee name", "Call sign", "Subservice", "Service", "Station location", "Province", "Satellite name"]
+                    "facets": ["Frequency band", "Licensee name", "Call sign", "Subservice", "Service", "Station location", "Province", "Satellite name", "Regulatory service"]
                 }
+            },
+            "queries": {
+                "Weather Radio Stations": "SELECT * FROM tafl WHERE \"Frequency (Hz, Sortable)\" IN (162400000, 162425000, 162450000, 162475000, 162500000, 162525000, 162550000) AND \"Regulatory service\"=\"Public Information service\"",
+                "Canadian Coast Guard Continuous Marine Broadcast (CMB)": "SELECT * FROM tafl WHERE \"Frequency (Hz, Sortable)\" IN (161650000,161750000,161775000,161850000) AND \"Licensee name\"=\"Fisheries and Oceans Canada - Canadian Coast Guard\"",
+                "Airband VHF Voice": "SELECT * FROM tafl WHERE \"Frequency (Hz, Sortable)\" > 118000000 AND \"Frequency (Hz, Sortable)\" < 136980000 AND \"Subservice\" = \"Aeronautical Base Station\"",
+                "Earth-Satellite Stations": "SELECT * FROM tafl WHERE (\"Satellite name\" IS NOT NULL AND \"Satellite name\" != \"\")"
             }
+
         }
     },
     "plugins": {

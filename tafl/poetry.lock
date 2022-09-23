@@ -442,6 +442,14 @@ optional = false
 python-versions = ">=3.6"
 
 [[package]]
+name = "quantiphy"
+version = "2.18.0"
+description = "physical quantities (numbers with units)"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[[package]]
 name = "regex"
 version = "2022.3.2"
 description = "Alternative regular expression module, to replace re."
@@ -621,7 +629,7 @@ standard = ["colorama (>=0.4)", "httptools (>=0.4.0)", "python-dotenv (>=0.13)",
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "a679dc6d042fc99074995418968d6fa6b1f62fdde44d674532602fc4730b228f"
+content-hash = "4a902454d5b1bb7a9256da0b4cb68734baf42d46a11ce72ca89189e655135fb9"
 
 [metadata.files]
 aiofiles = [
@@ -943,6 +951,10 @@ PyYAML = [
     {file = "PyYAML-6.0-cp39-cp39-win32.whl", hash = "sha256:b5b9eccad747aabaaffbc6064800670f0c297e52c12754eb1d976c57e4f74dcb"},
     {file = "PyYAML-6.0-cp39-cp39-win_amd64.whl", hash = "sha256:b3d267842bf12586ba6c734f89d1f5b871df0273157918b0ccefa29deb05c21c"},
     {file = "PyYAML-6.0.tar.gz", hash = "sha256:68fb519c14306fec9720a2a5b45bc9f0c8d1b9c72adf45c37baedfcd949c35a2"},
+]
+quantiphy = [
+    {file = "quantiphy-2.18.0-py3-none-any.whl", hash = "sha256:a3d367884f33877367a49bb95f5cdd52e04506102ce54d2eeb8ba067a5797263"},
+    {file = "quantiphy-2.18.0.tar.gz", hash = "sha256:eca14abfa83c3171cea7212a1a11fd6e004d029e5500b342b260b48c72f50d66"},
 ]
 regex = [
     {file = "regex-2022.3.2-cp310-cp310-macosx_10_9_x86_64.whl", hash = "sha256:ab69b4fe09e296261377d209068d52402fb85ef89dc78a9ac4a29a895f4e24a7"},
